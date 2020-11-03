@@ -11,6 +11,24 @@
                 background-attachment: fixed;
                 background-size: cover;
             }
+
+
+            /*
+            .mx-sm-5{
+              @media (min-width: 576px)
+                .ml-sm-5, .mx-sm-5 {
+                margin-left: 15rem!important;
+                }
+            }
+
+            .mx-sm-5{
+              @media (min-width: 576px)
+                .mr-sm-5, .mx-sm-5 {
+                margin-left: 15rem!important;
+                }
+            }
+            */
+
         </style>
 
     </head>
@@ -40,28 +58,28 @@
         </nav>
 
 
-        <form class="w-25 p-3 rounded-lg bg-dark text-white container-fluid mt-5">
+        <form class="p-3 rounded-lg bg-dark text-white mx-sm-5 mt-5">
 
-            <div class="form-group">
+            <section class="form-group">
               <label for="exampleInputEmail1">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
+            </section>
 
-            <div class="form-group ">
-              <label for="exampleInputPassword1">Password</label>
+            <section class="form-group">
+              <label for="exampleInputPassword1">Name</label>
               <input type="password" class="form-control " id="exampleInputPassword1">
-            </div>
+            </section>
 
-            <div class="form-group py-4">
+            <section class="form-group py-4">
                 <label for="exampleInputPassword1">Message</label>
                 <input type="message" class="form-control " id="exampleInputPassword1">
-            </div>
+            </section>
 
-            <div class="form-group form-check ">
+            <section class="form-group form-check ">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
+            </section>
 
             <button type="submit" class="btn btn-primary bg-transparent text-white border-white">Submit</button>
 
